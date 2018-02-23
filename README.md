@@ -16,7 +16,7 @@
     scrapy crawl vagas_pat -o vagas.json
     
 ### Salvando as vagas no MongoDB Atlas
-#### Configurações MongoDB, editar o arquivo setting.py 
+#### Configurações MongoDB, editar o arquivo vagas/setting.py 
     # Descomente a linha: 'vagas.pipelines.MongoPipeline': 300,
     
     ITEM_PIPELINES = {

@@ -90,5 +90,6 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 FEED_EXPORT_ENCODING = 'utf-8'
-MONGO_URI = ''
-MONGO_DATABASE = ''
+# Configurações MongoDB Atlas
+MONGO_URI = 'mongodb+srv://<user>:<password>@cluster0-hql3l.mongodb.net/test'
+MONGO_DATABASE = 'Vagas'

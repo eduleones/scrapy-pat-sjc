@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'vagas.pipelines.VagasPipeline': 300,
-    'vagas.pipelines.MongoPipeline': 300,
+    #'vagas.pipelines.MongoPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,5 +90,5 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 FEED_EXPORT_ENCODING = 'utf-8'
-MONGO_URI = 'mongodb+srv://scrapypat:T8S7haAzt7qD5cjK@cluster0-hql3l.mongodb.net/test'
-MONGO_DATABASE = 'Vagas'
+MONGO_URI = ''
+MONGO_DATABASE = ''

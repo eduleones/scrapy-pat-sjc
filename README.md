@@ -1,2 +1,2 @@
-# scrapy-salarios-prefeitura-sjc
-Scrapy dos salários da prefeitura de São José dos Campos - SP
+# scrapy-pat-sjc
+Scrapy das vagas de empregos disponiveis no PAT da cidade de São José dos Campos - SP
